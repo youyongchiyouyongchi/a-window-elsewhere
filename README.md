@@ -1,2 +1,26 @@
-# a-window-elsewhere
-一扇不存在的窗：无声的自然风景与轻互动知识实验。A silent, static, cross-platform knowledge window.
+# 一扇不存在的窗
+
+无声的自然风景，藏着可以轻轻拨弄的知识。当前只做跨平台网页，不做小程序或原生 App。
+
+## 两扇窗
+
+- 倒影：拨起一点风，观察倒影的扭曲与错位；再按兴趣展开简短解释。
+- 波光：转动一小片水面，观察反射光是否到达眼睛。
+
+## 使用
+
+直接打开 index.html 即可。图片和脚本均内嵌，无第三方 SDK、追踪、账号、后端或运行时 AI 接口。原理出处链接需要联网。
+
+发布到 GitHub Pages 后，iPhone 用 Safari、安卓用 Chrome 或 Edge 打开同一网址。可以收藏或添加到主屏幕；这不等同于原生 App，也不保证浏览器缓存后永久离线。
+
+### 首次启用 GitHub Pages
+
+仓库 Settings → Pages → Build and deployment：Source 选择 Deploy from a branch，Branch 选择 main、/(root)，保存。等待 GitHub 显示实际发布地址。
+
+## 兼容性与边界
+
+已做桌面 Chromium 与移动尺寸浏览器测试，尚未完成 iPhone / Android 真机验收。全屏为渐进增强：不支持时隐藏按钮，不影响核心体验。支持暂停、键盘操作及系统减少动态偏好。
+
+背景为 AI 生成的示意风景。风量变化使用二维图像形变，不是精确物理仿真；反射实验为局部二维平面镜模型。详细原理出处与边界可在各窗的解释区展开。
+
+代码与风景随本仓库公开；页面不采集用户信息。
